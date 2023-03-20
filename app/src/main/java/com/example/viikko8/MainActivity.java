@@ -39,8 +39,8 @@ public class MainActivity extends AppCompatActivity {
             numberOutput.setText(answer == (int) answer ? String.valueOf((int) answer) : String.valueOf(answer));
 
         }   catch(NumberFormatException n)    {
-            System.out.println(n.toString());
-            Toast.makeText(this, "Anna molemmat", Toast.LENGTH_LONG).show();
+            // System.out.println(n.toString());
+            Toast.makeText(this, "Anna molemmat luvut", Toast.LENGTH_LONG).show();
         }
     }
 
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
             numberOutput.setText(answer == (int) answer ? String.valueOf((int) answer) : String.valueOf(answer));
 
         }   catch(NumberFormatException n)    {
-            System.out.println(n.toString());
+            // System.out.println(n.toString());
             Toast.makeText(this, "Anna molemmat luvut", Toast.LENGTH_LONG).show();
         }
     }
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
             numberOutput.setText(answer == (int) answer ? String.valueOf((int) answer) : String.valueOf(answer));
 
         }   catch(NumberFormatException n)    {
-            System.out.println(n.toString());
+            // System.out.println(n.toString());
             Toast.makeText(this, "Anna molemmat luvut", Toast.LENGTH_LONG).show();
         }
     }
@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
         }   catch(NumberFormatException n)    {
-            System.out.println(n.toString());
+            // System.out.println(n.toString());
             Toast.makeText(this, "Anna molemmat luvut", Toast.LENGTH_LONG).show();
         }
     }
